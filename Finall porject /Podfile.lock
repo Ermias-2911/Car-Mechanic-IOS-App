@@ -1,0 +1,32 @@
+PODS:
+  - HexColors (2.3.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - TSMessages (0.9.13):
+    - HexColors (~> 2.3.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - TSMessages (from `https://github.com/KrauseFx/TSMessages.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HexColors
+    - IQKeyboardManagerSwift
+
+EXTERNAL SOURCES:
+  TSMessages:
+    :git: https://github.com/KrauseFx/TSMessages.git
+
+CHECKOUT OPTIONS:
+  TSMessages:
+    :commit: e4802d290362c87ba8a35c1afae88668dba8ab9a
+    :git: https://github.com/KrauseFx/TSMessages.git
+
+SPEC CHECKSUMS:
+  HexColors: 6ad3947c3447a055a3aa8efa859def096351fe5f
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  TSMessages: eb3cf27b6900684a21bad4fe9ea426e287b8c839
+
+PODFILE CHECKSUM: a9e3b4ea0e4d5655cdfccb9192ffaeaf34b16f19
+
+COCOAPODS: 1.5.3

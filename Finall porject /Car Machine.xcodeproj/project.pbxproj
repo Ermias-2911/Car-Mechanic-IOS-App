@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A338A4226CC067003A6778 /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A338A3226CC067003A6778 /* AdminViewController.swift */; };
+		18C6889F226B228200303824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C6889E226B228200303824 /* AppDelegate.swift */; };
+		18C688A1226B228200303824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C688A0226B228200303824 /* ViewController.swift */; };
+		18C688A4226B228200303824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C688A2226B228200303824 /* Main.storyboard */; };
+		18C688A7226B228200303824 /* Car_Machine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18C688A5226B228200303824 /* Car_Machine.xcdatamodeld */; };
+		18C688A9226B228F00303824 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C688A8226B228F00303824 /* Assets.xcassets */; };
+		18C688AC226B228F00303824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C688AA226B228F00303824 /* LaunchScreen.storyboard */; };
+		18C688BA226B273C00303824 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C688B9226B273C00303824 /* BaseViewController.swift */; };
+		18C688BD226B27E800303824 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C688BC226B27E800303824 /* Utility.swift */; };
+		18C688BF226B28A400303824 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C688BE226B28A400303824 /* Constant.swift */; };
+		18C688C1226B338100303824 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C688C0226B338100303824 /* RegisterViewController.swift */; };
+		18C688C3226B39F700303824 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C688C2226B39F700303824 /* HomeViewController.swift */; };
+		18C688C5226B5ECA00303824 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C688C4226B5ECA00303824 /* AboutViewController.swift */; };
+		18C688C8226C2BB100303824 /* MachineCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C688C7226C2BB100303824 /* MachineCollectionViewCell.swift */; };
+		18C688D3226C309E00303824 /* PersisServce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C688D2226C309E00303824 /* PersisServce.swift */; };
+		18D4BD0522718EFA00B44318 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4BD0422718EFA00B44318 /* MasterViewController.swift */; };
+		5B34F3B3A43349540E41C76F /* Pods_Car_Machine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572B3F22214DF76368A9B629 /* Pods_Car_Machine.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18A338A3226CC067003A6778 /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		18C6889B226B228200303824 /* Car Machine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Car Machine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C6889E226B228200303824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C688A0226B228200303824 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18C688A3226B228200303824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C688A6226B228200303824 /* Car_Machine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Car_Machine.xcdatamodel; sourceTree = "<group>"; };
+		18C688A8226B228F00303824 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C688AB226B228F00303824 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C688AD226B228F00303824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C688B9226B273C00303824 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		18C688BC226B27E800303824 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		18C688BE226B28A400303824 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		18C688C0226B338100303824 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		18C688C2226B39F700303824 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18C688C4226B5ECA00303824 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		18C688C7226C2BB100303824 /* MachineCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineCollectionViewCell.swift; sourceTree = "<group>"; };
+		18C688D2226C309E00303824 /* PersisServce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersisServce.swift; sourceTree = "<group>"; };
+		18D4BD0422718EFA00B44318 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		572B3F22214DF76368A9B629 /* Pods_Car_Machine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Car_Machine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9502545F215160376AE81035 /* Pods-Car Machine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Machine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Car Machine/Pods-Car Machine.release.xcconfig"; sourceTree = "<group>"; };
+		FAB4352B2C8D1366E4E5DFAF /* Pods-Car Machine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Car Machine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Car Machine/Pods-Car Machine.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C68898226B228200303824 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B34F3B3A43349540E41C76F /* Pods_Car_Machine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A338A2226CC045003A6778 /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				18A338A3226CC067003A6778 /* AdminViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+		18C68892226B228100303824 = {
+			isa = PBXGroup;
+			children = (
+				18C6889D226B228200303824 /* Car Machine */,
+				18C6889C226B228200303824 /* Products */,
+				EE6E7DF91EE75E77BA5B39D0 /* Pods */,
+				2BE6DEDEB3FAF21900858441 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C6889C226B228200303824 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C6889B226B228200303824 /* Car Machine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C6889D226B228200303824 /* Car Machine */ = {
+			isa = PBXGroup;
+			children = (
+				18C688C9226C2F3300303824 /* Core */,
+				18C688C6226C2B5C00303824 /* custom cell */,
+				18C688BB226B27AB00303824 /* Constant */,
+				18C688B7226B231600303824 /* Library */,
+				18C688B6226B22F600303824 /* Other files */,
+				18C688B5226B22E700303824 /* App Delegate */,
+				18C688B4226B22D700303824 /* Controller */,
+				18C688B3226B22CF00303824 /* View */,
+			);
+			path = "Car Machine";
+			sourceTree = "<group>";
+		};
+		18C688B3226B22CF00303824 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C688AA226B228F00303824 /* LaunchScreen.storyboard */,
+				18C688A2226B228200303824 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C688B4226B22D700303824 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18A338A2226CC045003A6778 /* Admin */,
+				18C688A0226B228200303824 /* ViewController.swift */,
+				18C688B9226B273C00303824 /* BaseViewController.swift */,
+				18C688C0226B338100303824 /* RegisterViewController.swift */,
+				18C688C2226B39F700303824 /* HomeViewController.swift */,
+				18C688C4226B5ECA00303824 /* AboutViewController.swift */,
+				18D4BD0422718EFA00B44318 /* MasterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18C688B5226B22E700303824 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				18C6889E226B228200303824 /* AppDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		18C688B6226B22F600303824 /* Other files */ = {
+			isa = PBXGroup;
+			children = (
+				18C688AD226B228F00303824 /* Info.plist */,
+				18C688A8226B228F00303824 /* Assets.xcassets */,
+				18C688A5226B228200303824 /* Car_Machine.xcdatamodeld */,
+			);
+			path = "Other files";
+			sourceTree = "<group>";
+		};
+		18C688B7226B231600303824 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				18C688B8226B232100303824 /* keyboard */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		18C688B8226B232100303824 /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+		18C688BB226B27AB00303824 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				18C688BC226B27E800303824 /* Utility.swift */,
+				18C688BE226B28A400303824 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		18C688C6226C2B5C00303824 /* custom cell */ = {
+			isa = PBXGroup;
+			children = (
+				18C688C7226C2BB100303824 /* MachineCollectionViewCell.swift */,
+			);
+			path = "custom cell";
+			sourceTree = "<group>";
+		};
+		18C688C9226C2F3300303824 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18C688D2226C309E00303824 /* PersisServce.swift */,
+			);
+			name = Core;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2BE6DEDEB3FAF21900858441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				572B3F22214DF76368A9B629 /* Pods_Car_Machine.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE6E7DF91EE75E77BA5B39D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAB4352B2C8D1366E4E5DFAF /* Pods-Car Machine.debug.xcconfig */,
+				9502545F215160376AE81035 /* Pods-Car Machine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C6889A226B228200303824 /* Car Machine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C688B0226B228F00303824 /* Build configuration list for PBXNativeTarget "Car Machine" */;
+			buildPhases = (
+				1A75C493130CB1801950F03A /* [CP] Check Pods Manifest.lock */,
+				18C68897226B228200303824 /* Sources */,
+				18C68898226B228200303824 /* Frameworks */,
+				18C68899226B228200303824 /* Resources */,
+				E4310B1C0FA8126603555CC9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Car Machine";
+			productName = "Car Machine";
+			productReference = 18C6889B226B228200303824 /* Car Machine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C68893226B228100303824 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = span4u;
+				TargetAttributes = {
+					18C6889A226B228200303824 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 18C68896226B228100303824 /* Build configuration list for PBXProject "Car Machine" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C68892226B228100303824;
+			productRefGroup = 18C6889C226B228200303824 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C6889A226B228200303824 /* Car Machine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C68899226B228200303824 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C688AC226B228F00303824 /* LaunchScreen.storyboard in Resources */,
+				18C688A9226B228F00303824 /* Assets.xcassets in Resources */,
+				18C688A4226B228200303824 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A75C493130CB1801950F03A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Car Machine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4310B1C0FA8126603555CC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Car Machine/Pods-Car Machine-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/TSMessages/TSMessages.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSMessages.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Car Machine/Pods-Car Machine-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C68897226B228200303824 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A338A4226CC067003A6778 /* AdminViewController.swift in Sources */,
+				18C688BD226B27E800303824 /* Utility.swift in Sources */,
+				18C688A1226B228200303824 /* ViewController.swift in Sources */,
+				18C688C1226B338100303824 /* RegisterViewController.swift in Sources */,
+				18C688C5226B5ECA00303824 /* AboutViewController.swift in Sources */,
+				18C688C8226C2BB100303824 /* MachineCollectionViewCell.swift in Sources */,
+				18C688C3226B39F700303824 /* HomeViewController.swift in Sources */,
+				18C688BA226B273C00303824 /* BaseViewController.swift in Sources */,
+				18C6889F226B228200303824 /* AppDelegate.swift in Sources */,
+				18C688A7226B228200303824 /* Car_Machine.xcdatamodeld in Sources */,
+				18C688D3226C309E00303824 /* PersisServce.swift in Sources */,
+				18C688BF226B28A400303824 /* Constant.swift in Sources */,
+				18D4BD0522718EFA00B44318 /* MasterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C688A2226B228200303824 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C688A3226B228200303824 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C688AA226B228F00303824 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C688AB226B228F00303824 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C688AE226B228F00303824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C688AF226B228F00303824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C688B1226B228F00303824 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB4352B2C8D1366E4E5DFAF /* Pods-Car Machine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RB8JVL8TX7;
+				INFOPLIST_FILE = "$(SRCROOT)/Car Machine/Other files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.workerfinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18C688B2226B228F00303824 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9502545F215160376AE81035 /* Pods-Car Machine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RB8JVL8TX7;
+				INFOPLIST_FILE = "$(SRCROOT)/Car Machine/Other files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.workerfinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C68896226B228100303824 /* Build configuration list for PBXProject "Car Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C688AE226B228F00303824 /* Debug */,
+				18C688AF226B228F00303824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C688B0226B228F00303824 /* Build configuration list for PBXNativeTarget "Car Machine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C688B1226B228F00303824 /* Debug */,
+				18C688B2226B228F00303824 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18C688A5226B228200303824 /* Car_Machine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18C688A6226B228200303824 /* Car_Machine.xcdatamodel */,
+			);
+			currentVersion = 18C688A6226B228200303824 /* Car_Machine.xcdatamodel */;
+			path = Car_Machine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18C68893226B228100303824 /* Project object */;
+}
