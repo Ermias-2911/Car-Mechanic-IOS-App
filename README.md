@@ -2,7 +2,7 @@
 # Csc690-Final Project
 
 ## Car Mechanic App 
-This Mechanic app connct user with mechanic if the app user car or nay automobile have proble. The user inorder to find mechanic they must creatte account account first. Then the you can find mechianci in the app and they can send request to mechanic by pressing Contact Now button. After that, the app redirct them to send message to mechanic with thier full address detail to mechanc. 
+This Mechanic app connect user with mechanic if user's car broken or need any maintenance. The user inorder to find mechanic in the app, they must creatte account first. Then they shall be able to log in into the app and find mechanic from mechanic list page. Then they can send request to mechanic by pressing Contact Now button. After that, the app redirct users to their phone message center whit auto filled user address, map, name, and phone number. Finally, the user shal be able to verify their information in their text message center and send it to mechanic. Once mechanic recived the message, shall able to contact and go to user's address. 
 
 ## App UI
 
